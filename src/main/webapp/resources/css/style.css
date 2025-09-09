@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+*{
+	margin: 0px;
+	padding: 0px;
+}/* 브라우저의 왼쪽 최상단부터 시작 */
+
+body {
+	font-size: 9pt;
+	font-family: 굴림;
+}
+
+a{
+	color: #000000;
+	text-decoration: none;
+	font-size: 9pt;
+	line-height: 150%
+}
+
+a:hover, a:active {
+	font-size: 9pt;
+	color: #F28011;
+	text-decoration: underline;
+}
+
+ul{
+	list-style: none;
+}
+
+td{
+	font-size: 9pt;
+}
+
+.btn1{
+	font-size: 9pt;
+	color: rgb(0,0,0);
+	background-color: rgb(245,245,245);
+	line-height: 16px;
+}
+
+.btn2{
+	color: #000000;
+	font: normal 9pt '굴림','trebuchet ms',helvetica,sans-serif;	/* 굴림없으면 trebuchet ms 사용, 그것도 없으면 helvetica 사용... */
+	background-color: #e4e4e4;
+	border: 1px solid;
+	border-color: #696 #363 #363 #696;	/* 순서대로 왼,위,오,아래 색깔 지정 */
+	line-height: 16px;
+	padding: 1px 6px 1px 6px;
+}
+
+
+
+
+
